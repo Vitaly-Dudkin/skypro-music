@@ -25,8 +25,12 @@
       "@navigation/*": ["./src/components/Navigation/*"],
       "@sidebar/*": ["./src/components/Sidebar/*"],
       "@centerblock/*": ["./src/components/Centerblock/*"],
+      "@search/*": ["./src/components/Search/*"],
       "@styles/*": ["./src/styles/*"],
-      "@utils/*": ["./src/utils/*"]
+      "@utils/*": ["./src/utils/*"],
+      "@types": ["./src/sharedTypes/sharedTypes.ts"],
+      "@data": ["./src/data.ts"],
+      "@helpers": ["./src/utils/helpers.ts"]
     }
   },
   "include": [
